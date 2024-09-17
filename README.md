@@ -1,9 +1,13 @@
-# **Mini Project, 6th Semester, B.Tech CSE, Jorhat Engineering College.**(Neural-Network-from-scratch)
-A self-coded Neural Network implementation from scratch for regression and classification tasks.  
-Loss Functions: `MSE, CCE, BCE`
-Activations: ```relu, tanh, sigmoid, softmax, linear, leaky_relu, silu```  
+# Neural Network from Scratch
 
+## Overview
 
+This project is a self-coded neural network implementation designed for regression and classification tasks, built from scratch. It includes various loss functions and activation functions.
+
+## Features
+
+- Loss Functions: `MSE, CCE, BCE`
+= Activations: ```relu, tanh, sigmoid, softmax, linear, leaky_relu, silu```  
 
 1. **Imports**
 ```
@@ -50,3 +54,8 @@ for x, y in val_loader:
 
 loss = loss / len(val_loader)  
 ```
+## About the Project
+This project was developed as part of the 6th semester, B.Tech CSE program at Jorhat Engineering College and completed in [May, 2024].
+
+## License
+This project is licensed under the [Apache License Version 2.0](./LICENSE)
